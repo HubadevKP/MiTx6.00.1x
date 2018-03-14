@@ -6,8 +6,8 @@
 # There is str before count in last line becouse: "TypeError: Can't convert 'int' object to str implicitly"
 # count = 0 becouse we start counting from zero and adding 1 if we found letter what we intrest in.
 
-#PROBLEM1
-#  Variables for problem 1
+#PROBLEM1:
+#Variables for problem 1
 s = 'aaeiuoliujfdsaasdfoeiu'
 count = 0
 # Program for problem 1
@@ -21,7 +21,8 @@ print ('Number of vowels: ' + str(count))
 # a = exemplary word
 # count = 0 becouse we start counting from zero and adding 1 if we found letter what we intrest in.
 
-# Variables for example
+#EXAMPLE:
+#Variables for example
 a = 'Egg'
 count = 0
 # # Program for example
