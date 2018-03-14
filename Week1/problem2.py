@@ -3,10 +3,10 @@
 # For example, if s = 'azcbobobegghakl', then your program should print Number of times bob occurs is: 2
 #
 #Methode 1:
-s = 'azcbobobbobegghakl'
+s = 'azctomatobobbobegghakl'
 count = 0
 for x in range(len(s)) :
-    if s[x:x+3] == 'bob' :
+    if s[x:x+3] == 'bob':
         count += 1
 print('Number of times bob occurs is: ' + str(count))
 
@@ -25,6 +25,16 @@ while z < len(s):
 print("Number of times bob occurs is:" + str(count))
 
 # My own example to better understending of subject:
+#Methode1
+s = 'tomatoeggtomatoeggbacontomatojuicebecontomato'
+count = 0
+a = 5
+for x in range(len(s)):
+    if s[x:x+6] == 'tomato':
+        count += 1
+print('Number of times tomato occurs is:' + str(count))
+
+#Methode 2
 
 s = "tomatoeggtomatoeggbacontomatojuicebecontomato"
 count = 0
@@ -44,11 +54,3 @@ while f < len(s):
     e += 1
     f += 1
 print("Number of times tomato occurs is:" + str(count))
-
-s = 'tomatoeggtomatoeggbacontomatojuicebecontomato'
-count = 0
-a = 5
-for x in range(len(s)):
-    if s[x:x+5] == 'tomato':
-        count += 1
-print('Number of times tomato occurs is:' + str(count))
