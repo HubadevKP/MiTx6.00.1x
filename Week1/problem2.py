@@ -28,7 +28,6 @@ print("Number of times bob occurs is:" + str(count))
 #Methode1
 s = 'tomatoeggtomatoeggbacontomatojuicebecontomato'
 count = 0
-a = 5
 for x in range(len(s)):
     if s[x:x+6] == 'tomato':
         count += 1
