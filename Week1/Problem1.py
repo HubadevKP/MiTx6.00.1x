@@ -3,7 +3,7 @@
 # Write a program that counts up the number of vowels contained in the string s.
 # Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl',
 # your program should print: Number of vowels:
-# There is str before count in last line becouse: "TypeError: Can't convert 'int' object to str implicitly"
+# There is str before count in last line becouse we want to change int to str that can fit there.
 # count = 0 becouse we start counting from zero and adding 1 for letter what we intrest in.
 
 #PROBLEM1:
