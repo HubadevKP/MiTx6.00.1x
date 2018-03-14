@@ -7,12 +7,9 @@
 # There is str before count in last line becouse: "TypeError: Can't convert 'int' object to str implicitly"
 
 #  Variables for problem 1
-
 s = 'aaeiuoliujfdsaasdfoeiu'
 count = 0
-
 # Program for problem 1
-
 for letter in s:
     if letter in 'aeiou':
         count += 1
@@ -27,9 +24,7 @@ print ('Number of vowels: ' + str(count))
 
 a = 'Egg'
 count = 0
-
 # # Program for example
-
 for letter in a:
     if letter in 'g':
         count += 1
