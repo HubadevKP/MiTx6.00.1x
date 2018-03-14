@@ -4,28 +4,26 @@
 # Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl',
 # your program should print: Number of vowels:
 # There is str before count in last line becouse: "TypeError: Can't convert 'int' object to str implicitly"
-# count = 0 becouse we start counting from zero and adding 1 if we found letter what we intrest in.
+# count = 0 becouse we start counting from zero and adding 1 for letter what we intrest in.
 
 #PROBLEM1:
 #Variables for problem 1
 s = 'aaeiuoliujfdsaasdfoeiu'
 count = 0
-# Program for problem 1
 for letter in s:
     if letter in 'aeiou':
         count += 1
 print ('Number of vowels: ' + str(count))
 
 
-# EXAMPLE to better understending:
-# a = exemplary word
-# count = 0 becouse we start counting from zero and adding 1 if we found letter what we intrest in.
+# My own exampel to better understending of subject:
+# a = exemplary string
+# count = 0 becouse we start counting from zero and adding 1 for letter what we intrest in.
 
 #EXAMPLE:
 #Variables for example
 a = 'Egg'
 count = 0
-# # Program for example
 for letter in a:
     if letter in 'g':
         count += 1
